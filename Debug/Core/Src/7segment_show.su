@@ -1,0 +1,2 @@
+7segment_show.c:23:6:displayDigit	16	static
+7segment_show.c:33:6:segSHOW	16	static
