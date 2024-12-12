@@ -1,5 +1,6 @@
-Core/Src/button.o: ../Core/Src/button.c ../Core/Inc/button.h \
- ../Core/Inc/main.h ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+Core/Src/input_reading.o: ../Core/Src/input_reading.c \
+ ../Core/Inc/input_reading.h ../Core/Inc/main.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
@@ -23,10 +24,9 @@ Core/Src/button.o: ../Core/Src/button.c ../Core/Inc/button.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Core/Inc/the_mode.h ../Core/Inc/7segment_show.h ../Core/Inc/main.h \
- ../Core/Inc/led_value.h
+ ../Core/Inc/timer.h ../Core/Inc/input_reading.h
 
-../Core/Inc/button.h:
+../Core/Inc/input_reading.h:
 
 ../Core/Inc/main.h:
 
@@ -78,10 +78,6 @@ Core/Src/button.o: ../Core/Src/button.c ../Core/Inc/button.h \
 
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 
-../Core/Inc/the_mode.h:
+../Core/Inc/timer.h:
 
-../Core/Inc/7segment_show.h:
-
-../Core/Inc/main.h:
-
-../Core/Inc/led_value.h:
+../Core/Inc/input_reading.h:
